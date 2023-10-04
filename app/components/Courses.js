@@ -1,7 +1,8 @@
 import Link from 'next/link';
+import Search from './Search';
 
 const fetchCourses = async () => {
-	const response = await fetch(`http://localhost:3000/api/courses`);
+	const response = await fetch(`/api/courses`);
 
 	const courses = await response.json();
 
@@ -15,6 +16,7 @@ const Courses = async () => {
 
 	return (
 		<div>
+			<Search />
 			{courses.map(({ id, title, description, link, level }) => (
 				<div
 					key={id}

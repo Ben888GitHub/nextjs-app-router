@@ -38,6 +38,8 @@ Dynamic Routes
 
 Loading UI & Streaming
 - https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming
+- https://www.youtube.com/watch?v=2o5m1ovfl3c
+- https://blog.logrocket.com/create-loading-component-next-js-13-react-suspense/
 
 Facts about NextJS App Router
 - https://blog.bitsrc.io/why-next-js-13-is-a-game-changer-2167658d9de2
