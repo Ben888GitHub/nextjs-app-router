@@ -1,9 +1,9 @@
 // * https://www.youtube.com/watch?v=vrR4MlB7nBI
 // * Edge Function
 
-export const config = {
-	runtime: 'edge'
-};
+// export const config = {
+// 	runtime: 'edge'
+// };
 
 export const GET = async (req, res) => {
 	// res.status(200).json({ name: 'Hi, Next.js!' });
