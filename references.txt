@@ -1,0 +1,45 @@
+Installation & Project structure
+- https://nextjs.org/docs/getting-started/installation
+- https://nextjs.org/docs/getting-started/project-structure
+
+Migration Guide
+- https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#upgrading
+
+Routing & Navigation
+- https://nextjs.org/docs/app/building-your-application/routing
+
+Address problem for Link Preloaded
+- https://github.com/vercel/next.js/discussions/49607
+- https://stackoverflow.com/questions/73386743/nextjs-image-was-preloaded-using-link-preload-but-not-used-within-a-few-seconds
+
+Data Fetching (SSR)
+- https://adhithiravi.medium.com/the-yin-and-yang-of-next-js-13-understanding-server-components-and-server-side-rendering-6a9b774c3b06
+
+Data Fetching, Caching, and Revalidating for better Performance
+- https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating
+- https://vercel.com/blog/nextjs-app-router-data-fetching
+- https://www.youtube.com/watch?v=vrR4MlB7nBI, API Routes
+- --
+- https://stackoverflow.com/questions/76409677/how-to-correctly-use-the-api-routes-in-the-next-js-13-using-app-router-framework, API Routes Accurate
+- https://nextjs.org/docs/app/building-your-application/routing/route-handlers, API Routes
+- https://blog.logrocket.com/using-next-js-route-handlers/, API Routes or Route Handlers
+
+Layouts Utilization
+- https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts
+
+Metadata for SEO
+- https://nextjs.org/docs/app/building-your-application/optimizing/metadata
+
+Font Optimization
+- https://nextjs.org/docs/app/building-your-application/optimizing/fonts
+
+Dynamic Routes
+- https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes
+
+Loading UI & Streaming
+- https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming
+
+Facts about NextJS App Router
+- https://blog.bitsrc.io/why-next-js-13-is-a-game-changer-2167658d9de2
+- https://betterprogramming.pub/8-things-you-should-know-about-next-js-13-969291f168ec
+- https://betterprogramming.pub/how-to-structure-your-next-js-app-with-the-new-app-router-61bf2bf5a20d
