@@ -2,7 +2,9 @@ import Link from 'next/link';
 import Search from './Search';
 
 const fetchCourses = async () => {
-	const response = await fetch(`/api/courses`);
+	const response = await fetch(
+		`https://nextjs-app-router-lower-version.vercel.app/api/courses`
+	);
 
 	const courses = await response.json();
 
