@@ -14,7 +14,7 @@ const Header = () => {
 							{headerNav.map(({ href, value }) => (
 								<li key={href}>
 									<Link
-										prefetch={false}
+										// prefetch={false}
 										href={href}
 										className={
 											href === '/' ? variants.homeClass : variants.navClass
