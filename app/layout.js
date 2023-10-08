@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
 				{/* navigation bar in root layout where you can view across pages */}
 				{/* reference: https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts */}
 				<Header />
-				<main className="flex flex-col items-center justify-between p-16">
+				<main className="flex flex-col items-center justify-between lg:p-16 md:p-16 p-10">
 					{children}
 				</main>
 			</body>
