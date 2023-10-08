@@ -9,12 +9,12 @@ const fetchRepoContents = async (repoName) => {
 
 	// * ISR
 	const response = await fetch(
-		`https://api.github.com/repos/bradtraversy/${repoName}/contents`,
-		{
-			next: {
-				revalidate: 60
-			}
-		}
+		`https://api.github.com/repos/bradtraversy/${repoName}/contents`
+		// {
+		// 	next: {
+		// 		revalidate: 60
+		// 	}
+		// }
 	);
 
 	const contents = await response.json();
