@@ -1,5 +1,5 @@
-import { headerNav, variants } from '@/utils/headerData';
 import Link from 'next/link';
+import { headerNav, variants } from '../utils/headerData';
 
 const Header = () => {
 	return (

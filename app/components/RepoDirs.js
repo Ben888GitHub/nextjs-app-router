@@ -7,7 +7,7 @@ import Link from 'next/link';
 const fetchRepoContents = async (repoName) => {
 	await new Promise((resolve) => setTimeout(resolve, 2000));
 
-	// * ISR
+	// * ISR if revalidate
 	const response = await fetch(
 		`https://api.github.com/repos/bradtraversy/${repoName}/contents`
 		// {

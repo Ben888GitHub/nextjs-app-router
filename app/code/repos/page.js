@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 // * https://adhithiravi.medium.com/the-yin-and-yang-of-next-js-13-understanding-server-components-and-server-side-rendering-6a9b774c3b06
 const fetchRepos = async () => {
-	// * ISR
+	// * ISR if revalidate
 	const response = await fetch(
-		'https://api.github.com/users/bradtraversy/repos',
+		'https://api.github.com/users/bradtraversy/repos'
 		// {
 		// 	next: {
 		// 		revalidate: 60
