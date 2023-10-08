@@ -11,7 +11,7 @@ const RepoName = ({ params }) => {
 
 	return (
 		<>
-			<div className=" w-3/12 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-5">
+			<div className="lg:w-3/12 md:w-3/12 w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-5">
 				<Link href="/code/repos" className=" hover:underline">
 					Back to Repositories
 				</Link>
