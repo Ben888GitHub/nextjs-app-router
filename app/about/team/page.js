@@ -1,3 +1,10 @@
+export const metadata = {
+	title: 'Amazing Team',
+	description:
+		'With Web Skills you can go for the career paths of Frontend Developer, Technical Writer, or even Developer Advocate',
+	keywords: 'React, Next.js, API'
+};
+
 const TeamPage = () => {
 	return (
 		<div>

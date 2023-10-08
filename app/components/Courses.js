@@ -32,7 +32,6 @@ const Courses = async () => {
 					</p>
 					<div className="mb-3">
 						<Link
-							// href={`/courses/${id}`}
 							href={link}
 							target="_blank"
 							className="bg-blue-500  cursor-pointer p-3 rounded-md text-white font-normal"

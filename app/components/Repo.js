@@ -1,5 +1,4 @@
-import Link from 'next/link';
-import { FaStar, FaCodeBranch, FaEye } from 'react-icons/fa';
+import RepoCount from './RepoCount';
 
 const fetchRepo = async (repoName) => {
 	// * ISR
@@ -18,8 +17,7 @@ const fetchRepo = async (repoName) => {
 };
 
 const Repo = async ({ repoName }) => {
-	const { description, stargazers_count, forks_count, watchers_count } =
-		await fetchRepo(repoName);
+	const { description, ...count } = await fetchRepo(repoName);
 
 	return (
 		<>
@@ -29,20 +27,7 @@ const Repo = async ({ repoName }) => {
 			<p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
 				{description}
 			</p>
-			<div className="flex w-full ">
-				<span className="items-center mx-auto flex">
-					{' '}
-					<FaStar className="mr-1" /> {stargazers_count}
-				</span>
-				<span className="items-center mx-auto flex">
-					{' '}
-					<FaCodeBranch className="mr-1" /> {forks_count}
-				</span>
-				<span className="items-center flex mx-auto">
-					{' '}
-					<FaEye className="mr-1" /> {watchers_count}
-				</span>
-			</div>
+			<RepoCount {...count} />
 		</>
 	);
 };
