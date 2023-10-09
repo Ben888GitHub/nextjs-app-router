@@ -14,11 +14,11 @@ const headerNav = [
 	{
 		href: '/code/repos',
 		value: 'Code Repos'
-	},
-	{
-		href: '/tasks',
-		value: 'Tasks'
 	}
+	// {
+	// 	href: '/tasks',
+	// 	value: 'Tasks'
+	// }
 ];
 
 const variants = {
