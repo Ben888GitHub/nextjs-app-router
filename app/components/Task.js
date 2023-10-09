@@ -1,19 +1,19 @@
-'use client';
+// 'use client';
 
-import { useRouter } from 'next/navigation';
+// import { useRouter } from 'next/navigation';
 
 const Task = ({ id, title, description }) => {
-	const router = useRouter();
+	// const router = useRouter();
 
-	const handleDeleteTask = async () => {
-		const response = await fetch(`http://localhost:4000/tasks/${id}`, {
-			method: 'DELETE'
-		});
+	// const handleDeleteTask = async () => {
+	// 	const response = await fetch(`http://localhost:4000/tasks/${id}`, {
+	// 		method: 'DELETE'
+	// 	});
 
-		console.log(`Deleted: ${response.json()}`);
+	// 	console.log(`Deleted: ${response.json()}`);
 
-		router.refresh();
-	};
+	// 	router.refresh();
+	// };
 
 	return (
 		<div className="mx-auto  w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-6">
@@ -28,7 +28,7 @@ const Task = ({ id, title, description }) => {
 			</p>
 			<div
 				type="button"
-				onClick={handleDeleteTask}
+				// onClick={handleDeleteTask}
 				className="text-center bg-red-500  cursor-pointer lg:p-3 md:p-3 p-2 rounded-md text-white font-normal"
 			>
 				Delete

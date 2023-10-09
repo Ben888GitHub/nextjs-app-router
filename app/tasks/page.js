@@ -1,4 +1,4 @@
-import AddTask from '../components/AddTask';
+// import AddTask from '../components/AddTask';
 import Task from '../components/Task';
 
 const getTasks = async () => {
