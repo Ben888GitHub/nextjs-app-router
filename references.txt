@@ -24,6 +24,9 @@ Data Fetching, Caching, and Revalidating for better Performance
 - https://nextjs.org/docs/app/building-your-application/routing/route-handlers, API Routes
 - https://blog.logrocket.com/using-next-js-route-handlers/, API Routes or Route Handlers
 
+Data Fetching CRUD
+- https://medium.com/@amayawickramasinghe2001/creating-a-to-do-app-with-next-js-cdb58f0b12d1
+
 Layouts Utilization
 - https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts
 

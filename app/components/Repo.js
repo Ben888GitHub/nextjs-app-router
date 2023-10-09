@@ -1,7 +1,7 @@
 import RepoCount from './RepoCount';
 
 const fetchRepo = async (repoName) => {
-	// * ISR
+	// * ISR if revalidate
 	const response = await fetch(
 		`https://api.github.com/repos/bradtraversy/${repoName}`,
 		{

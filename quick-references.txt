@@ -1,2 +1,4 @@
 Quick References:
 - https://vercel.com/docs/frameworks/nextjs
+- https://nextjs.org/blog/next-13
+- https://blog.bitsrc.io/next-js-13-4-is-finally-here-and-its-awesome-e9f5b27bccda
