@@ -41,8 +41,9 @@ Loading UI & Streaming
 - https://www.youtube.com/watch?v=2o5m1ovfl3c
 - https://blog.logrocket.com/create-loading-component-next-js-13-react-suspense/
 
-Search Params on Server Component
+Search Params on Server Component 🔍
 - https://www.youtube.com/watch?v=e7bUYg7_hCI
+https://www.youtube.com/watch?v=HuZxu_i4gO0&t=2s
 
 Facts about NextJS App Router
 - https://blog.bitsrc.io/why-next-js-13-is-a-game-changer-2167658d9de2

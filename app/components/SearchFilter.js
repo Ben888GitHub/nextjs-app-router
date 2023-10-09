@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';
 import { useDebounce } from 'use-debounce';
 
-const SearchCourses = ({ searchParams }) => {
+const SearchFilter = ({ searchParams, pageRoute }) => {
 	const router = useRouter();
 	const initialRender = useRef(true);
 	const search =
@@ -24,14 +24,18 @@ const SearchCourses = ({ searchParams }) => {
 		}
 
 		if (!query) {
-			router.push(`/`);
+			router.push(`${pageRoute}`);
 		} else {
-			router.push(`/?search=${query}`);
+			router.push(`${pageRoute}?search=${query}`);
 		}
 	}, [query]);
 
 	return (
-		<div className="mx-auto lg:w-5/12 md:w-6/12 w-full mb-6">
+		<div
+			className={`${
+				pageRoute === '/' && 'mx-auto'
+			}  lg:w-6/12 md:w-6/12 w-full mb-6`}
+		>
 			<form onSubmit={(e) => e.preventDefault()}>
 				<label
 					htmlFor="default-search"
@@ -61,7 +65,9 @@ const SearchCourses = ({ searchParams }) => {
 						type="search"
 						id="default-search"
 						className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-						placeholder="Search Courses..."
+						placeholder={
+							pageRoute === '/' ? 'Search Courses...' : 'Search Repositories...'
+						}
 						value={searchVal}
 						onChange={handleSearchVal}
 						required
@@ -72,4 +78,4 @@ const SearchCourses = ({ searchParams }) => {
 	);
 };
 
-export default SearchCourses;
+export default SearchFilter;

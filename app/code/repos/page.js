@@ -1,4 +1,5 @@
 import RepoCount from '@/app/components/RepoCount';
+import SearchFilter from '@/app/components/SearchFilter';
 import Link from 'next/link';
 
 // * https://adhithiravi.medium.com/the-yin-and-yang-of-next-js-13-understanding-server-components-and-server-side-rendering-6a9b774c3b06
@@ -19,15 +20,22 @@ const fetchRepos = async () => {
 	return repos;
 };
 
-const CodeRepos = async () => {
+const CodeRepos = async ({ searchParams }) => {
 	const repos = await fetchRepos();
+
+	const filteredRepos = repos.filter(({ name }) =>
+		searchParams.search
+			? name.toLowerCase().includes(searchParams.search.toLowerCase())
+			: name
+	);
 
 	return (
 		<div>
-			<p className="text-3xl">Code Repositories</p>
-			<p className="text-xl mb-7">Lorem Ipsum</p>
+			<p className="text-3xl mb-3">Code Repositories</p>
+			{/* <p className="text-xl mb-7">List:</p> */}
+			<SearchFilter searchParams={searchParams} pageRoute={`/code/repos`} />
 
-			{repos.map(
+			{filteredRepos.map(
 				({
 					id,
 					name,

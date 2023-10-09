@@ -1,7 +1,7 @@
 // 'use client';
 
 import Courses from './components/Courses';
-import SearchCourses from './components/SearchCourses';
+import SearchFilter from './components/SearchFilter';
 // import { useSearchParams } from 'next/navigation';
 
 export default function Home({ searchParams }) {
@@ -14,7 +14,7 @@ export default function Home({ searchParams }) {
 			{/* <p className="lg:text-3xl md:text-3xl text-xl text-center mb-7">
 				App Router Next.js
 			</p> */}
-			<SearchCourses searchParams={searchParams} />
+			<SearchFilter searchParams={searchParams} pageRoute={`/`} />
 			<Courses searchParams={searchParams} />
 		</div>
 	);
