@@ -21,7 +21,7 @@ const Tasks = async () => {
 
 	return (
 		<>
-			<AddTask />
+			{/* <AddTask /> */}
 			<div className="grid lg:grid-cols-3 lg:gap-10  grid-cols-1 mt-6">
 				{tasks.map((task) => (
 					<Task key={task.id} {...task} />
