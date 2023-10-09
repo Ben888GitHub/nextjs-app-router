@@ -3,12 +3,12 @@ import RepoCount from './RepoCount';
 const fetchRepo = async (repoName) => {
 	// * ISR
 	const response = await fetch(
-		`https://api.github.com/repos/bradtraversy/${repoName}`
-		// {
-		// 	next: {
-		// 		revalidate: 60
-		// 	}
-		// }
+		`https://api.github.com/repos/bradtraversy/${repoName}`,
+		{
+			next: {
+				revalidate: 60
+			}
+		}
 	);
 
 	const repo = await response.json();

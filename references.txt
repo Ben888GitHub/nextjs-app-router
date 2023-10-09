@@ -43,7 +43,10 @@ Loading UI & Streaming
 
 Search Params on Server Component 🔍
 - https://www.youtube.com/watch?v=e7bUYg7_hCI
-https://www.youtube.com/watch?v=HuZxu_i4gO0&t=2s
+- https://www.youtube.com/watch?v=HuZxu_i4gO0&t=2s
+- https://github.com/bwestwood11/search_coins_youtube_video, Client Search
+- --
+- https://github.com/batuhanbilginn/search-nextjs13, 6 ways
 
 Facts about NextJS App Router
 - https://blog.bitsrc.io/why-next-js-13-is-a-game-changer-2167658d9de2

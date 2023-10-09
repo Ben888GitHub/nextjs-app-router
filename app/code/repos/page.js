@@ -4,14 +4,10 @@ import Link from 'next/link';
 
 // * https://adhithiravi.medium.com/the-yin-and-yang-of-next-js-13-understanding-server-components-and-server-side-rendering-6a9b774c3b06
 const fetchRepos = async () => {
-	// * ISR if revalidate
+	// * SSG with force-cache
 	const response = await fetch(
-		'https://api.github.com/users/bradtraversy/repos'
-		// {
-		// 	next: {
-		// 		revalidate: 60
-		// 	}
-		// }
+		'https://api.github.com/users/bradtraversy/repos',
+		{ cache: 'force-cache' }
 	);
 
 	await new Promise((resolve) => setTimeout(resolve, 1000));

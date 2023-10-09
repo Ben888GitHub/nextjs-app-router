@@ -1,0 +1,2 @@
+Quick References:
+- https://vercel.com/docs/frameworks/nextjs
