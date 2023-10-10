@@ -14,11 +14,11 @@ const headerNav = [
 	{
 		href: '/code/repos',
 		value: 'Code Repos'
+	},
+	{
+		href: '/dashboard',
+		value: 'Sample Dashboard Layout'
 	}
-	// {
-	// 	href: '/tasks',
-	// 	value: 'Tasks'
-	// }
 ];
 
 const variants = {

@@ -28,3 +28,7 @@ export default function RootLayout({ children }) {
 		</html>
 	);
 }
+
+// * Other References & Understandings:
+// * https://www.youtube.com/watch?v=R7A5vBDfZ18
+// * https://www.youtube.com/watch?v=OWa-zrgteZs
