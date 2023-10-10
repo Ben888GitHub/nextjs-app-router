@@ -32,6 +32,8 @@ Layouts Utilization
 
 Metadata for SEO
 - https://nextjs.org/docs/app/building-your-application/optimizing/metadata
+- Dynamic Metadata: https://nextjs.org/docs/app/building-your-application/optimizing/metadata#dynamic-metadata
+- https://nextjs.org/docs/app/api-reference/functions/generate-metadata
 
 Font Optimization
 - https://nextjs.org/docs/app/building-your-application/optimizing/fonts
