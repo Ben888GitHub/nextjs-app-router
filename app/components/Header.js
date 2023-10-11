@@ -60,7 +60,7 @@ const Header = () => {
 									key={href}
 									href={href}
 									className={
-										href === '/' ? variants.homeClass : variants.navClass
+										href === pathname ? variants.homeClass : variants.navClass
 									}
 									aria-current="page"
 								>
