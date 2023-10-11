@@ -18,6 +18,14 @@ const headerNav = [
 	{
 		href: '/dashboard',
 		value: 'Sample Dashboard Layout'
+	},
+	{
+		href: '/users',
+		value: 'Parallel Data Fetching in RSC'
+	},
+	{
+		href: '/tasks',
+		value: 'With generateStaticParams()'
 	}
 ];
 

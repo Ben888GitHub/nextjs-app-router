@@ -4,8 +4,11 @@ import Link from 'next/link';
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { HiBars3, HiXMark } from 'react-icons/hi2';
 import { headerNav, variants } from '../utils/headerData';
+import { usePathname } from 'next/navigation';
 
 const Header = () => {
+	const pathname = usePathname();
+
 	return (
 		<Disclosure as="nav" className="bg-gray-800">
 			{({ open }) => (
@@ -32,8 +35,11 @@ const Header = () => {
 											<Link
 												key={idx}
 												href={href}
+												prefetch={false} // todo, omit this
 												className={
-													href === '/' ? variants.homeClass : variants.navClass
+													href === pathname
+														? variants.homeClass
+														: variants.navClass
 												}
 												aria-current="page"
 											>

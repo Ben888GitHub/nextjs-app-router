@@ -13,3 +13,5 @@ More Information about Data Fetching:
 - https://www.youtube.com/watch?v=_hb8gbe5zTQ
 - --
 - https://www.youtube.com/watch?v=-Sj05H2AuW8
+- https://youtu.be/-Sj05H2AuW8?si=xfUgxj8JLz94RrlO&t=1578, Parallel Fetching
+- https://nextjs.org/docs/app/building-your-application/data-fetching/patterns#parallel-data-fetching, Parallel Fetching
