@@ -1,13 +1,21 @@
-// export const revalidate = 1;
+// export const revalidate = 3;
 
-export const dynamic = 'force-dynamic';
+import CSRNoAPICaching from '../components/CSRNoAPICaching';
+
+// export const dynamic = 'force-dynamic';
 // export const fetchCache = 'force-no-store';
+
 export const metadata = {
 	title: 'Caching Solution'
 };
 
 const CachingLayout = ({ children }) => {
-	return <>{children}</>;
+	return (
+		<>
+			<CSRNoAPICaching />
+			{children}
+		</>
+	);
 };
 
 export default CachingLayout;

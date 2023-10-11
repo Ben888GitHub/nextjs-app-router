@@ -27,6 +27,10 @@ const headerNav = [
 		href: '/tasks',
 		value: 'With generateStaticParams()'
 	}
+	// {
+	// 	href: '/caching-solution',
+	// 	value: 'No Caching with force-dynamic'
+	// }
 ];
 
 const variants = {
