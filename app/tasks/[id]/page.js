@@ -8,7 +8,7 @@ export const generateStaticParams = async () => {
 		(res) => res.json()
 	);
 
-	return tasks.map(({ id }) => ({ id: String(id) }));
+	return tasks.slice(0, 9).map(({ id }) => ({ id: String(id) }));
 };
 
 const getTask = async (id) => {
