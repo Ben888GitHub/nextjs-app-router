@@ -1,20 +1,9 @@
 import RepoCount from '@/app/components/RepoCount';
 import SearchFilter from '@/app/components/SearchFilter';
+import { fetchRepos } from '@/app/libs/fetchRepos';
 import Link from 'next/link';
 
 // * https://adhithiravi.medium.com/the-yin-and-yang-of-next-js-13-understanding-server-components-and-server-side-rendering-6a9b774c3b06
-const fetchRepos = async () => {
-	// * SSG with force-cache
-	const response = await fetch(
-		'https://api.github.com/users/bradtraversy/repos',
-		{ cache: 'force-cache' }
-	);
-
-	await new Promise((resolve) => setTimeout(resolve, 1000));
-
-	const repos = await response.json();
-	return repos;
-};
 
 const CodeRepos = async ({ searchParams }) => {
 	const repos = await fetchRepos();

@@ -6,3 +6,10 @@ Quick References:
 - https://www.youtube.com/watch?v=EYDOXzpTRvw
 - https://www.youtube.com/watch?v=r8nXMA_pf0w 
 - https://medium.com/@amirvahedix/nextjs-13-rendering-strategies-simplified-888eaafdb2af
+
+More Information about Data Fetching:
+- https://livecode247.com/demystifying-data-fetching-in-nextjs-13
+- https://howardlee93.medium.com/data-fetching-with-react-server-components-in-nextjs-13-d4448dc591e9
+- https://www.youtube.com/watch?v=_hb8gbe5zTQ
+- --
+- https://www.youtube.com/watch?v=-Sj05H2AuW8

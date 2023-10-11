@@ -37,6 +37,8 @@ Metadata for SEO
 
 Font Optimization
 - https://nextjs.org/docs/app/building-your-application/optimizing/fonts
+- https://medium.com/frontendweb/how-to-use-font-optimizing-in-nextjs-13-7a66c450a88a
+- https://blog.logrocket.com/next-js-font-optimization-custom-google-fonts/
 
 Dynamic Routes
 - https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes
