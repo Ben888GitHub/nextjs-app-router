@@ -9,7 +9,7 @@ const getTasks = async () => {
 
 	const tasks = await response.json();
 
-	console.log(tasks);
+	// console.log(tasks);
 
 	return tasks;
 };

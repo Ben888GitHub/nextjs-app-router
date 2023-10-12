@@ -13,7 +13,7 @@ const Header = () => {
 		<Disclosure as="nav" className="bg-gray-800">
 			{({ open }) => (
 				<>
-					<div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+					<div className="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
 						<div className="relative flex h-16 items-center justify-between">
 							<div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
 								{/* Mobile menu button*/}
@@ -74,37 +74,5 @@ const Header = () => {
 		</Disclosure>
 	);
 };
-
-// const Header = () => {
-// 	return (
-// 		<header>
-// 			<nav className="bg-white border-gray-200 px-4 lg:px-6 py-7 dark:bg-gray-800">
-// 				<div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-// 					<div
-// 						className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
-// 						id="mobile-menu-2"
-// 					>
-// 						<ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-// 							{headerNav.map(({ href, value }) => (
-// 								<li key={href}>
-// 									<Link
-// 										// prefetch={false}
-// 										href={href}
-// 										className={
-// 											href === '/' ? variants.homeClass : variants.navClass
-// 										}
-// 										aria-current="page"
-// 									>
-// 										{value}
-// 									</Link>
-// 								</li>
-// 							))}
-// 						</ul>
-// 					</div>
-// 				</div>
-// 			</nav>
-// 		</header>
-// 	);
-// };
 
 export default Header;

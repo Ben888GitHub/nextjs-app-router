@@ -9,7 +9,7 @@ const headerNav = [
 	},
 	{
 		href: '/about/team',
-		value: 'Nested Route'
+		value: 'Nested Dynamic Import'
 	},
 	{
 		href: '/code/repos',
@@ -26,11 +26,11 @@ const headerNav = [
 	{
 		href: '/tasks',
 		value: 'With generateStaticParams()'
+	},
+	{
+		href: '/image-optimization',
+		value: 'Image Optimization'
 	}
-	// {
-	// 	href: '/caching-solution',
-	// 	value: 'No Caching with force-dynamic'
-	// }
 ];
 
 const variants = {

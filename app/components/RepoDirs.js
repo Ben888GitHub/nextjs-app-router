@@ -18,7 +18,7 @@ const fetchRepoContents = async (repoName) => {
 	);
 
 	const contents = await response.json();
-	console.log(contents);
+	// console.log(contents);
 	return contents;
 };
 

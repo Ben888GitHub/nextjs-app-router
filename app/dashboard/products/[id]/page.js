@@ -5,7 +5,7 @@ import Link from 'next/link';
 // * https://nextjs.org/docs/app/api-reference/functions/generate-metadata
 // * https://medium.com/@danielcracbusiness/the-power-of-metadata-in-next-js-13-part-1-optimize-your-websites-seo-now-512e037ca9f9
 export async function generateMetadata({ params, searchParams }, parent) {
-	console.log(params);
+	// console.log(params);
 
 	const mockProduct = mockProducts.find(({ id }) => id === Number(params.id));
 

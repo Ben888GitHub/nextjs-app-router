@@ -14,7 +14,7 @@ const SearchFilter = ({ searchParams, pageRoute }) => {
 
 	const handleSearchVal = (e) => {
 		setSearchVal(e.target.value);
-		console.log(e.target.value);
+		// console.log(e.target.value);
 	};
 
 	useEffect(() => {

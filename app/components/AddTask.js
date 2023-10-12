@@ -24,7 +24,7 @@ const AddTask = () => {
 	// * API to add new task
 	const handleAddTask = async (e) => {
 		e.preventDefault();
-		console.log(newTask);
+		// console.log(newTask);
 		setNewTask({ ...taskData });
 
 		const response = await fetch('http://localhost:4000/tasks', {
@@ -36,7 +36,7 @@ const AddTask = () => {
 		});
 		const addedTask = await response.json();
 		router.refresh();
-		console.log(addedTask);
+		// console.log(addedTask);
 		// return addedTask;
 	};
 

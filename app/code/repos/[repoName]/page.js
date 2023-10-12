@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { Suspense } from 'react';
 
 const RepoName = ({ params }) => {
-	console.log(params);
+	// console.log(params);
 
 	return (
 		<>
