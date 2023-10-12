@@ -55,6 +55,15 @@ Search Params on Server Component 🔍
 - --
 - https://github.com/batuhanbilginn/search-nextjs13, 6 ways
 
+Performance Optimization
+- https://www.youtube.com/watch?v=TvrQnBDIDpI 
+- https://medium.com/@surksha8/10-proven-strategies-to-boost-your-next-js-app-performance-2de166dcff50 
+- https://www.codemotion.com/magazine/frontend/optimize-next-js-for-production/ 
+- 
+- https://blog.logrocket.com/optimizing-build-performance-next-js/ 
+- https://www.youtube.com/watch?v=TvrQnBDIDpI    
+
+
 Facts about NextJS App Router
 - https://blog.bitsrc.io/why-next-js-13-is-a-game-changer-2167658d9de2
 - https://betterprogramming.pub/8-things-you-should-know-about-next-js-13-969291f168ec
