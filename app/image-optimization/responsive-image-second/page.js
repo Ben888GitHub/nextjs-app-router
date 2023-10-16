@@ -10,7 +10,8 @@ const ResponsiveImageFillAndContain = () => {
 				<Image
 					src={`https://${process.env.NEXT_UNSPLASH_DOMAIN}/photo-1593510987185-1ec2256148a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80`}
 					alt="cia_briefing_room"
-					sizes="800px"
+					// sizes="800px"
+					sizes="(max-width: 768px) 500px, (max-width: 1200px) 600px, 800px"
 					fill
 					className="object-contain"
 					priority

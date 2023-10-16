@@ -12,6 +12,8 @@ const CLSOptimization = () => (
 			src={imgSrc}
 			width={650} // * incorrect aspect ratio from the actual image that can cause high CLS
 			height={366} // * incorrect aspect ratio from the actual image that can cause high CLS
+			// sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+			// sizes="(min-width: 780px) 650px, calc(93.48vw - 60px)"
 			alt=""
 			priority
 		/>
