@@ -30,18 +30,12 @@ const ImageOptimization = () => {
 							width={500}
 							height={500}
 							priority
-							className="lg:m-5 lg:mb-0 mb-5 w-auto h-auto"
+							// sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 30vw"
+							className="lg:m-5 lg:mb-0 mb-5 w-full h-auto"
 						/>
 					</Fragment>
 				))}
 			</div>
-			{/* <Image
-				src="https://images.unsplash.com/photo-1593510987185-1ec2256148a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-				alt="cia_briefing_room"
-				width={500}
-				height={500}
-				className="mt-10 rounded-md w-auto h-auto"
-			/> */}
 			<Link
 				href="/image-optimization/background-image"
 				className="text-xl underline mt-5"
