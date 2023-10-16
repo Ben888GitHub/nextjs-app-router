@@ -61,7 +61,8 @@ Performance Optimization
 - https://www.codemotion.com/magazine/frontend/optimize-next-js-for-production/ 
 - 
 - https://blog.logrocket.com/optimizing-build-performance-next-js/ 
-- https://www.youtube.com/watch?v=TvrQnBDIDpI    
+- https://www.youtube.com/watch?v=TvrQnBDIDpI 
+- https://www.solutelabs.com/blog/improve-nextjs-performance   
 
 Image Optimization
 - https://nextjs.org/docs/app/building-your-application/optimizing/images
@@ -69,6 +70,13 @@ Image Optimization
 - https://www.youtube.com/shorts/CxctanmF9lk
 - --
 - https://www.youtube.com/watch?v=GG66vQgc1Vg&t=1s, with very simple and smooth animation
+- https://www.youtube.com/shorts/HNIVOZZiHWQ
+- https://skyward.digital/blog/load-images-faster-with-next-image, speed up loading for images
+- https://prismic.io/blog/nextjs-image-component-optimization
+- https://dev.to/nj145/all-you-need-to-know-about-nextjs-image-optimization-and-how-to-effectively-make-use-of-it-4pmh, Automatic Sizes Optimizations
+- https://nextjs.org/docs/app/api-reference/components/image#responsive-image-with-fill, use fill layout when the remote image's size is unknown
+- https://www.youtube.com/watch?v=AT70PVbdfBI, use fill layout when the remote image's size is unknown
+- https://www.youtube.com/watch?v=gpJKj45AikY, More on Responsive
 
 
 Facts about NextJS App Router

@@ -1,16 +1,12 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { Fragment } from 'react';
+import ImagesNavigation from '../components/ImagesNavigation';
 
 const imagesList = [
 	{
 		src: `https://${process.env.NEXT_UNSPLASH_DOMAIN}/photo-1593510987185-1ec2256148a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80`,
 		alt: 'cia_briefing_room'
 	},
-	// {
-	// 	src: '/images/home_deck.jpg',
-	// 	alt: 'home_deck'
-	// }
 	{
 		src: `https://${process.env.NEXT_UNSPLASH_DOMAIN}/photo-1612081508965-8a681aaa707a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80`,
 		alt: 'mi6_london'
@@ -36,30 +32,7 @@ const ImageOptimization = () => {
 					</Fragment>
 				))}
 			</div>
-			<Link
-				href="/image-optimization/background-image"
-				className="text-xl underline mt-5"
-			>
-				Go to background image
-			</Link>
-			<Link
-				href="/image-optimization/fill-container"
-				className="text-xl underline mt-5"
-			>
-				Go to fill container or responsive images grid
-			</Link>
-			<Link
-				href="/image-optimization/responsive-image-first"
-				className="text-xl underline mt-5"
-			>
-				Go to first responsive image
-			</Link>
-			<Link
-				href="/image-optimization/basic-animation"
-				className="text-xl underline mt-5"
-			>
-				Go to basic animated image
-			</Link>
+			<ImagesNavigation />
 		</>
 	);
 };
