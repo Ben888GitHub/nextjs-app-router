@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { Fragment } from 'react';
 
 const imagesList = [
@@ -41,6 +42,24 @@ const ImageOptimization = () => {
 				height={500}
 				className="mt-10 rounded-md w-auto h-auto"
 			/> */}
+			<Link
+				href="/image-optimization/background-image"
+				className="text-xl underline mt-5"
+			>
+				Go to background image
+			</Link>
+			<Link
+				href="/image-optimization/fill-container"
+				className="text-xl underline mt-5"
+			>
+				Go to fill container or responsive images grid
+			</Link>
+			<Link
+				href="/image-optimization/responsive-image-first"
+				className="text-xl underline mt-5"
+			>
+				Go to first responsive image
+			</Link>
 		</>
 	);
 };
