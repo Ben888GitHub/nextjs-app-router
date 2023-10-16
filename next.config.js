@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	images: {
-		domains: ['images.unsplash.com']
-		// formats: ['image/avif', 'image/webp']
+		domains: [process.env.NEXT_UNSPLASH_DOMAIN],
+		formats: ['image/avif', 'image/webp']
 	}
 };
 
