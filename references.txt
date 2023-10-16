@@ -66,6 +66,9 @@ Performance Optimization
 Image Optimization
 - https://nextjs.org/docs/app/building-your-application/optimizing/images
 - https://www.youtube.com/watch?v=IU_qq_c_lKA
+- https://www.youtube.com/shorts/CxctanmF9lk
+- --
+- https://www.youtube.com/watch?v=GG66vQgc1Vg&t=1s, with very simple and smooth animation
 
 
 Facts about NextJS App Router

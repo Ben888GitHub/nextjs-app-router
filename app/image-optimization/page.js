@@ -54,6 +54,12 @@ const ImageOptimization = () => {
 			>
 				Go to first responsive image
 			</Link>
+			<Link
+				href="/image-optimization/basic-animation"
+				className="text-xl underline mt-5"
+			>
+				Go to basic animated image
+			</Link>
 		</>
 	);
 };
