@@ -25,11 +25,18 @@ const ImageOptimization = () => {
 							width={500}
 							height={500}
 							priority
-							className="lg:m-5 lg:mb-0 mb-5"
+							className="lg:m-5 lg:mb-0 mb-5 w-auto h-auto"
 						/>
 					</Fragment>
 				))}
 			</div>
+			<Image
+				src="/images/home_deck.jpg"
+				alt="home_deck"
+				width={500}
+				height={500}
+				className="mt-10 rounded-md w-auto h-auto"
+			/>
 		</>
 	);
 };

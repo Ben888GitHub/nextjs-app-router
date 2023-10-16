@@ -63,6 +63,10 @@ Performance Optimization
 - https://blog.logrocket.com/optimizing-build-performance-next-js/ 
 - https://www.youtube.com/watch?v=TvrQnBDIDpI    
 
+Image Optimization
+- https://nextjs.org/docs/app/building-your-application/optimizing/images
+- https://www.youtube.com/watch?v=IU_qq_c_lKA
+
 
 Facts about NextJS App Router
 - https://blog.bitsrc.io/why-next-js-13-is-a-game-changer-2167658d9de2
