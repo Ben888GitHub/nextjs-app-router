@@ -30,6 +30,10 @@ const imagesNav = [
 		nav: 'Go to Tailwind Images Mansory'
 	},
 	{
+		href: '/image-optimization/tailwind-img-grid',
+		nav: 'Go to Tailwind Easy Images Grid'
+	},
+	{
 		href: '/image-optimization/with-grid-gallery',
 		nav: 'React Grid Gallery'
 	},
