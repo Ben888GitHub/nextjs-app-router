@@ -1,5 +1,6 @@
 // * https://youtu.be/gpJKj45AikY?si=RBBAgSAZ384x2E_z&t=217, Optimize CLS
 
+import ImagesNavigation from '@/app/components/ImagesNavigation';
 import Image from 'next/image';
 
 const imgSrc =
@@ -17,6 +18,8 @@ const CLSOptimization = () => (
 			alt=""
 			priority
 		/>
+
+		<ImagesNavigation />
 	</>
 );
 
