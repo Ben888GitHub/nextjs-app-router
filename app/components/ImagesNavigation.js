@@ -34,10 +34,6 @@ const imagesNav = [
 		nav: 'Go to Tailwind Easy Images Grid'
 	},
 	{
-		href: '/image-optimization/with-grid-gallery',
-		nav: 'React Grid Gallery'
-	},
-	{
 		href: '/image-optimization/cls-optimization',
 		nav: 'Images CLS Optimization'
 	}
