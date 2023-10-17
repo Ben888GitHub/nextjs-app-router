@@ -21,7 +21,7 @@ const GridGallery = (images) => {
 
 	return (
 		<>
-			{/* <PhotoAlbum
+			<PhotoAlbum
 				layout="rows"
 				photos={slides}
 				// targetRowHeight={150}
@@ -31,7 +31,7 @@ const GridGallery = (images) => {
 					size: '(min-width: 1340px) calc(10.3vw - 27px), (min-width: 1040px) calc(17.5vw - 34px), (min-width: 680px) calc(17.35vw - 24px), (min-width: 500px) calc(21.88vw - 23px), (min-width: 340px) calc(19.29vw - 12px), calc(15vw - 17px)'
 				}}
 				// onClick={({ index: current }) => setIndex(current)}
-			/> */}
+			/>
 		</>
 	);
 };
