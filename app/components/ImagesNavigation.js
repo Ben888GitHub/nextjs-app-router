@@ -22,8 +22,8 @@ const imagesNav = [
 		nav: 'Go to background image'
 	},
 	{
-		href: '/image-optimization/fill-container',
-		nav: 'Go to fill container or responsive images grid'
+		href: '/image-optimization/tailwind-img-gallery',
+		nav: 'Go to Tailwind Images Gallery'
 	},
 	{
 		href: '/image-optimization/cls-optimization',

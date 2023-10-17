@@ -7,6 +7,12 @@ const nextConfig = {
 				hostname: 'raw.githubusercontent.com',
 				port: '',
 				pathname: '/gitdagray/test-blogposts/main/images/**'
+			},
+			{
+				protocol: 'https',
+				hostname: 'images.pexels.com',
+				port: '',
+				pathname: '/photos/**'
 			}
 		],
 		domains: [process.env.NEXT_UNSPLASH_DOMAIN, process.env.NEXT_PICSUM_DOMAIN],

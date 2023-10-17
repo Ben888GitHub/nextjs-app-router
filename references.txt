@@ -77,6 +77,11 @@ Image Optimization
 - https://nextjs.org/docs/app/api-reference/components/image#responsive-image-with-fill, use fill layout when the remote image's size is unknown
 - https://www.youtube.com/watch?v=AT70PVbdfBI, use fill layout when the remote image's size is unknown
 - https://www.youtube.com/watch?v=gpJKj45AikY, More on Responsive
+- https://www.youtube.com/watch?v=ph98MeTCUMc, Responsive Image Gallery
+- ---
+- https://image-component.nextjs.gallery/, more responsive examples
+- https://flowbite.com/docs/components/gallery/ cross-reference with https://github.com/gitdagray/nextjs-image-gallery-ninja/tree/lesson-6/src/app/components, Image Gallery
+- https://github.com/gitdagray/nextjs-image-gallery-ninja/tree/lesson-6/src/app/components, Image Gallery
 
 
 Facts about NextJS App Router
