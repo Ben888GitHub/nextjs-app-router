@@ -1,16 +1,12 @@
 import BlurImage from '@/app/components/BlurImage';
 import ImagesNavigation from '@/app/components/ImagesNavigation';
 import { fetchPexelsImages } from '@/app/libs/fetchPexelsImages';
-import { fetchPexelsImagesBlur } from '@/app/libs/fetchPexelsImagesBlur';
 
 // * Blur placeholder, https://nextjs.org/docs/app/api-reference/components/image#placeholder
 // * BlurDataURL, https://nextjs.org/docs/app/api-reference/components/image#blurdataurl
 
 const TailwindGalleryBlur = async () => {
 	const images = await fetchPexelsImages();
-
-	// const plaiceholderImages = await fetchPexelsImagesBlur();
-	// console.log(plaiceholderImages);
 
 	return (
 		<>

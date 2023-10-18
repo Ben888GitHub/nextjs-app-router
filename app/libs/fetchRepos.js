@@ -1,11 +1,10 @@
 export const fetchRepos = async () => {
 	// * SSG with force-cache
 	const response = await fetch(
-		'https://api.github.com/users/bradtraversy/repos',
-		{ cache: 'force-cache' }
+		'https://api.github.com/users/bradtraversy/repos'
 	);
 
-	await new Promise((resolve) => setTimeout(resolve, 1000));
+	await new Promise((resolve) => setTimeout(resolve, 500));
 
 	const repos = await response.json();
 	return repos;
