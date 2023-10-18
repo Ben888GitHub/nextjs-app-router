@@ -29,7 +29,7 @@ const Courses = async ({ searchParams }) => {
 					className="mx-auto  lg:w-9/12 md:w-9/12 w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-6"
 				>
 					<p
-						role={title}
+						role="header"
 						className="mt-1 mb-2 lg:text-2xl md:text-2xl text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
 					>
 						{title}
