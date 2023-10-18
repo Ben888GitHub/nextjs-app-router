@@ -9,8 +9,8 @@ import { fetchPexelsImagesBlur } from '@/app/libs/fetchPexelsImagesBlur';
 const TailwindGalleryBlur = async () => {
 	const images = await fetchPexelsImages();
 
-	const plaiceholderImages = await fetchPexelsImagesBlur();
-	console.log(plaiceholderImages);
+	// const plaiceholderImages = await fetchPexelsImagesBlur();
+	// console.log(plaiceholderImages);
 
 	return (
 		<>
