@@ -16,14 +16,14 @@ const TailwindGalleryBlur = async () => {
 		<>
 			<p className="text-3xl mb-5">Blur Image Gallery with Plaiceholder</p>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-				{/* {images.photos.map(({ id, ...props }) => (
+				{images.photos.map(({ id, ...props }) => (
 					<div
 						key={id}
 						className="relative w-[300px] h-[300px] group overflow-hidden"
 					>
 						<BlurImage {...props} />
 					</div>
-				))} */}
+				))}
 			</div>
 
 			<ImagesNavigation />
