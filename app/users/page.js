@@ -18,10 +18,14 @@ const UsersData = async () => {
 	);
 };
 
-export const ResultData = ({ name, lang, first_published_at }) => {
+export const ResultData = ({ name, lang, first_published_at, id }) => {
 	return (
 		<>
-			<p className="mt-1 mb-2 lg:text-2xl md:text-2xl text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+			<p
+				role="heading"
+				aria-level={id}
+				className="mt-1 mb-2 lg:text-2xl md:text-2xl text-xl font-semibold tracking-tight text-gray-900 dark:text-white"
+			>
 				{name}
 			</p>
 			<p className="lg:text-lg md:text-lg text-md mb-3 font-normal text-gray-500 dark:text-gray-400">
