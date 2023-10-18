@@ -18,8 +18,12 @@ const imagesNav = [
 		nav: 'Go to basic animated image'
 	},
 	{
-		href: '/image-optimization/background-image',
-		nav: 'Go to background image'
+		href: '/image-optimization/background-image-responsive',
+		nav: 'responsive background image with text'
+	},
+	{
+		href: '/image-optimization/background-image-text',
+		nav: 'background image with text'
 	},
 	{
 		href: '/image-optimization/tailwind-img-gallery',
