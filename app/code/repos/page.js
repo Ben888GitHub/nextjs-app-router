@@ -16,7 +16,9 @@ const CodeRepos = async ({ searchParams }) => {
 
 	return (
 		<div>
-			<p className="text-3xl mb-3">Code Repositories</p>
+			<p className="text-3xl mb-3" role="heading" aria-level="1">
+				Code Repositories
+			</p>
 			<SearchFilter searchParams={searchParams} pageRoute={`/code/repos`} />
 
 			{filteredRepos.map(
