@@ -26,6 +26,10 @@ const imagesNav = [
 		nav: 'background image with text'
 	},
 	{
+		href: '/image-optimization/background-image-remote',
+		nav: 'remote background image with text'
+	},
+	{
 		href: '/image-optimization/tailwind-img-gallery',
 		nav: 'Go to Tailwind Images Gallery'
 	},

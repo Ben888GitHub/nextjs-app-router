@@ -15,7 +15,8 @@ const AnimatedResponsiveImage = () => (
 				width={600}
 				height={400}
 				className="w-full h-auto transition-opacity opacity-0  duration-[2s]"
-				priority
+				// priority
+				loading="lazy"
 				// sizes="(max-width: 768px) 250vw, (max-width: 1200px) 100vw, 175vw"
 				onLoad={(img) => console.log(img.target.naturalWidth)}
 				onLoadingComplete={(img) => img.classList.remove('opacity-0')} // * good for animation on basic level

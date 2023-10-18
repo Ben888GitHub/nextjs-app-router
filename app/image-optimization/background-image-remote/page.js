@@ -1,16 +1,13 @@
 import Image from 'next/image';
 import ImagesNavigation from '@/app/components/ImagesNavigation';
 
-// * Reference: https://larainfo.com/blogs/how-to-use-background-image-in-nextjs-with-tailwind-css
-// * https://image-component.nextjs.gallery/background
-// * https://www.youtube.com/watch?v=rb6fOQ4LfrE
-const BackgroundImageText = () => {
+const BackgroundImageRemote = () => {
 	return (
 		<>
 			<div className="absolute -z-1 w-full h-screen overflow-hidden">
 				<Image
 					alt="surveillance"
-					src="/images/sur_territory.avif"
+					src={`https://${process.env.NEXT_UNSPLASH_DOMAIN}/photo-1593510987185-1ec2256148a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80`}
 					fill
 					className="object-cover brightness-50"
 					// style={{ filter: 'brightness(50%)' }}
@@ -31,6 +28,4 @@ const BackgroundImageText = () => {
 	);
 };
 
-export default BackgroundImageText;
-
-// * Darken image brightness without affecting text: https://chat.openai.com/c/c5d25938-b3be-4f9a-968d-cf0adc3eb39e
+export default BackgroundImageRemote;
