@@ -29,7 +29,9 @@ const RepoDirs = async ({ repoName }) => {
 
 	return (
 		<>
-			<p className="text-2xl mt-3">Directories:</p>
+			<p className="text-2xl mt-3" role="heading" aria-level="1">
+				Directories:
+			</p>
 
 			<ul className="mt-1">
 				{dirs.map((dir) => (

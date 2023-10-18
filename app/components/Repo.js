@@ -17,11 +17,15 @@ const fetchRepo = async (repoName) => {
 };
 
 const Repo = async ({ repoName }) => {
-	const { description, ...count } = await fetchRepo(repoName);
+	const { description, id, ...count } = await fetchRepo(repoName);
 
 	return (
 		<>
-			<p className="mt-3 mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+			<p
+				role="heading"
+				aria-level={id}
+				className="mt-3 mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white"
+			>
 				{repoName}
 			</p>
 			<p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
