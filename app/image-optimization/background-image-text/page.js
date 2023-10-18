@@ -13,6 +13,7 @@ const BackgroundImageText = () => {
 					fill
 					className="object-cover brightness-50"
 					// style={{ filter: 'brightness(50%)' }}
+					sizes="100vw"
 					priority
 				/>
 				<div className="relative z-10 flex flex-col items-center justify-center  mt-10">
