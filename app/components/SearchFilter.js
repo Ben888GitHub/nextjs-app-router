@@ -36,7 +36,7 @@ const SearchFilter = ({ searchParams, pageRoute }) => {
 				pageRoute === '/' && 'mx-auto'
 			}  lg:w-6/12 md:w-6/12 w-full mb-6`}
 		>
-			<form onSubmit={(e) => e.preventDefault()}>
+			<form role="search" onSubmit={(e) => e.preventDefault()}>
 				<label
 					htmlFor="default-search"
 					className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
