@@ -1,5 +1,7 @@
 'use client';
 
+// * Reference: https://www.youtube.com/watch?v=cj1trlsQ0is
+
 // import LocalStorageItem from '@/app/components/LocalStorageItem';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/navigation';

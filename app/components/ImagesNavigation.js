@@ -34,6 +34,10 @@ const imagesNav = [
 		nav: 'Go to Tailwind Images Gallery'
 	},
 	{
+		href: '/image-optimization/tailwind-img-gallery-blur',
+		nav: 'Go to Tailwind Images Gallery with Plaiceholder Blur'
+	},
+	{
 		href: '/image-optimization/tailwind-img-mansory',
 		nav: 'Go to Tailwind Images Mansory'
 	},
