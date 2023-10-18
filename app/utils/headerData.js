@@ -30,6 +30,10 @@ const headerNav = [
 	{
 		href: '/image-optimization',
 		value: 'Image Optimization'
+	},
+	{
+		href: '/protected-route',
+		value: 'Protected Route Example'
 	}
 ];
 
