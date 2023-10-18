@@ -11,8 +11,8 @@ const BackgroundImageText = () => {
 					alt="surveillance"
 					src="/images/sur_territory.avif"
 					fill
-					className="object-cover"
-					style={{ filter: 'brightness(50%)' }}
+					className="object-cover brightness-50"
+					// style={{ filter: 'brightness(50%)' }}
 					priority
 				/>
 				<div className="relative z-10 flex flex-col items-center justify-center  mt-10">
@@ -30,3 +30,5 @@ const BackgroundImageText = () => {
 };
 
 export default BackgroundImageText;
+
+// * Darken image brightness without affecting text: https://chat.openai.com/c/c5d25938-b3be-4f9a-968d-cf0adc3eb39e
