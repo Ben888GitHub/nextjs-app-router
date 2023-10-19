@@ -23,8 +23,8 @@ const ImageOptimization = () => {
 						<Image
 							src={src}
 							alt={alt}
-							width={500}
-							height={500}
+							width={640}
+							height={427}
 							priority
 							// sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 30vw"
 							className="lg:m-5 lg:mb-0 mb-5 w-full h-auto"
