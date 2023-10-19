@@ -23,10 +23,13 @@ const ImageOptimization = () => {
 						<Image
 							src={src}
 							alt={alt}
-							width={500}
-							height={500}
+							width={640}
+							height={427}
+							// width={500}
+							// height={500}
 							priority
 							// sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 30vw"
+							sizes="(min-width: 1220px) 30vw, (min-width: 780px) 50vw, calc(100vw - 80px)"
 							className="lg:m-5 lg:mb-0 mb-5 w-full h-auto"
 						/>
 					</Fragment>
