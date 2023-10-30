@@ -31,7 +31,7 @@ const CodeRepos = async ({ searchParams }) => {
 				}) => (
 					<div
 						key={id}
-						className="text-center max-w-2xl p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-5"
+						className="text-center max-w-2xl p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-5 ring-4 ring-transparent hover:ring-blue-500 hover:scale-105 transition-all duration-200 "
 					>
 						<Link
 							href={`repos/${name}`}
