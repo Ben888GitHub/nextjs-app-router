@@ -38,6 +38,10 @@ const headerNav = [
 	{
 		href: '/data-with-sections',
 		value: 'Data with Sections'
+	},
+	{
+		href: '/ecommerce-layouts',
+		value: 'Layouts Filter Examples'
 	}
 ];
 
