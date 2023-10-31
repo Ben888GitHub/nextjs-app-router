@@ -34,6 +34,10 @@ const headerNav = [
 	{
 		href: '/protected-route',
 		value: 'Protected Route Example'
+	},
+	{
+		href: '/data-with-sections',
+		value: 'Data with Sections'
 	}
 ];
 
