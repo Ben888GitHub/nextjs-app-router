@@ -22,12 +22,19 @@ export default ECommerceTab;
 
 function Tab({ path, parallelRoutesKey, item }) {
 	const href = item.slug ? path + '/' + item.slug : path;
-
+	const segment = useSelectedLayoutSegment(parallelRoutesKey);
 	const pathname = usePathname();
 
+	const isActive =
+		// Example home pages e.g. `/layouts`
+		(!item.slug && segment === null) ||
+		segment === item.segment ||
+		// Nested pages e.g. `/layouts/electronics`
+		segment === item.slug;
+
 	const variants = `${
-		pathname === href
-			? 'bg-gray-500 text-white'
+		isActive
+			? 'bg-blue-500 text-white'
 			: 'bg-gray-700 text-gray-100 hover:bg-gray-500 hover:text-white'
 	} p-3 rounded-lg`;
 
