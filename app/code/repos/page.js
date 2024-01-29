@@ -8,7 +8,7 @@ import Link from 'next/link';
 const CodeRepos = async ({ searchParams }) => {
 	const repos = await fetchRepos();
 
-	const filteredRepos = repos.filter(({ name }) =>
+	const filteredRepos = repos?.filter(({ name }) =>
 		searchParams.search
 			? name.toLowerCase().includes(searchParams.search.toLowerCase())
 			: name

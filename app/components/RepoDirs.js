@@ -25,7 +25,7 @@ const fetchRepoContents = async (repoName) => {
 const RepoDirs = async ({ repoName }) => {
 	const contents = await fetchRepoContents(repoName);
 
-	const dirs = contents.filter((content) => content.type === 'dir');
+	const dirs = contents?.filter((content) => content.type === 'dir');
 
 	return (
 		<>
