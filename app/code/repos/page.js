@@ -8,11 +8,11 @@ import Link from 'next/link';
 const CodeRepos = async ({ searchParams }) => {
 	const repos = await fetchRepos();
 	// console.log(repos);
-	// const filteredRepos = repos.filter(({ name }) =>
-	// 	searchParams.search
-	// 		? name.toLowerCase().includes(searchParams.search.toLowerCase())
-	// 		: name
-	// );
+	const filteredRepos = repos.filter(({ name }) =>
+		searchParams.search
+			? name.toLowerCase().includes(searchParams.search.toLowerCase())
+			: name
+	);
 
 	return (
 		<div>
@@ -21,7 +21,7 @@ const CodeRepos = async ({ searchParams }) => {
 			</p>
 			<SearchFilter searchParams={searchParams} pageRoute={`/code/repos`} />
 
-			{/* {filteredRepos.map(
+			{filteredRepos.map(
 				({
 					id,
 					name,
@@ -46,7 +46,7 @@ const CodeRepos = async ({ searchParams }) => {
 						<RepoCount {...count} />
 					</div>
 				)
-			)} */}
+			)}
 		</div>
 	);
 };
