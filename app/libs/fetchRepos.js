@@ -7,5 +7,6 @@ export const fetchRepos = async () => {
 	await new Promise((resolve) => setTimeout(resolve, 500));
 
 	const repos = await response.json();
+	// console.log(repos);
 	return repos;
 };

@@ -4,15 +4,15 @@ import { fetchRepos } from '@/app/libs/fetchRepos';
 import Link from 'next/link';
 
 // * https://adhithiravi.medium.com/the-yin-and-yang-of-next-js-13-understanding-server-components-and-server-side-rendering-6a9b774c3b06
-
+// export const revalidate = 0;
 const CodeRepos = async ({ searchParams }) => {
 	const repos = await fetchRepos();
-
-	const filteredRepos = repos?.filter(({ name }) =>
-		searchParams.search
-			? name.toLowerCase().includes(searchParams.search.toLowerCase())
-			: name
-	);
+	// console.log(repos);
+	// const filteredRepos = repos.filter(({ name }) =>
+	// 	searchParams.search
+	// 		? name.toLowerCase().includes(searchParams.search.toLowerCase())
+	// 		: name
+	// );
 
 	return (
 		<div>
@@ -21,7 +21,7 @@ const CodeRepos = async ({ searchParams }) => {
 			</p>
 			<SearchFilter searchParams={searchParams} pageRoute={`/code/repos`} />
 
-			{filteredRepos.map(
+			{/* {filteredRepos.map(
 				({
 					id,
 					name,
@@ -46,7 +46,7 @@ const CodeRepos = async ({ searchParams }) => {
 						<RepoCount {...count} />
 					</div>
 				)
-			)}
+			)} */}
 		</div>
 	);
 };
