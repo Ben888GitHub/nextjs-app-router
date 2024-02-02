@@ -14,6 +14,7 @@ Address problem for Link Preloaded
 
 Data Fetching (SSR)
 - https://adhithiravi.medium.com/the-yin-and-yang-of-next-js-13-understanding-server-components-and-server-side-rendering-6a9b774c3b06
+- https://blog.webdevsimplified.com/2024-01/next-js-app-router-cache/
 
 Data Fetching, Caching, and Revalidating for better Performance
 - https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating
